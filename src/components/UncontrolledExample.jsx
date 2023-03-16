@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import imgCasa1 from '../assets/casa1.jpeg'
 import imgCasa2 from '../assets/casa2.jpeg'
 import imgCasa3 from '../assets/casa3.jpeg'
-import styles from './Carousel.css'
+import styles from '../styles/Carousel.css'
 
 //no pude hacer q la imagen no se deforme
 
