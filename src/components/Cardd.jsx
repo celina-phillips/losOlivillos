@@ -1,20 +1,17 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React from 'react'
+import imgCasa1 from '../assets/casa1.jpeg'
+import imgCasa2 from '../assets/casa2.jpeg'
+import imgCasa3 from '../assets/casa3.jpeg'
+import styles from '../styles/Card.css'
 
-function Cardd() {
+const Cardd = (props) => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Casa1</Button>
-      </Card.Body>
-    </Card>
-  );
+    <div className='card'>
+        <img src={props.img} alt="" />
+        <h3>{props.texto}</h3>
+        <button>ir a la casa</button>
+    </div>
+  )
 }
 
-export default Cardd;
+export default Cardd

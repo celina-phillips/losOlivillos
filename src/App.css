@@ -10,8 +10,11 @@
 .carousel{
   margin-top: 20px;
 }
-.cards{
+.divcasas{
   margin-top: 40px;
   display: flex;
-  justify-content: space-around;  
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center; 
+  gap: 60px; 
 }
