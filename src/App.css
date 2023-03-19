@@ -22,3 +22,9 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.react-player{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
