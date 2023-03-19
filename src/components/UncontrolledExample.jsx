@@ -12,7 +12,6 @@ import styles from '../styles/Carousel.css'
 function UncontrolledExample() {
   return (
     <ReactPlayer url={video}
-      
       playing
       loop
         width='100%'
