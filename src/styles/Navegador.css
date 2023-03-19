@@ -1,4 +1,7 @@
-.nav-bar{
-
+.logo{
+    height: 7vh;
+}
+nav-bar{
+    position: fixed;
 }
 
