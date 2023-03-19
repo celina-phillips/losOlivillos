@@ -1,5 +1,8 @@
-import Carousel from 'react-bootstrap/Carousel';
-import imgCasa1 from '../assets/casa1.jpeg'
+import React from 'react'
+import video from '../assets/video/Olivillos.mp4'
+import ReactPlayer from 'react-player'
+import '../App.css'
+
 import imgCasa2 from '../assets/casa2.jpeg'
 import imgCasa3 from '../assets/casa3.jpeg'
 import styles from '../styles/Carousel.css'
@@ -8,45 +11,13 @@ import styles from '../styles/Carousel.css'
 
 function UncontrolledExample() {
   return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={imgCasa1}
-          alt="First slide" 
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={imgCasa2}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="img"
-          src={imgCasa3}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <ReactPlayer url={video}
+      
+      playing
+      loop
+        width='100%'
+        height='100%'
+      />
   );
 }
 

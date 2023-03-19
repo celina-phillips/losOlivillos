@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
         <Navegador/>
-        <UncontrolledExample className="carousel"/>     
+        <UncontrolledExample />  
         <div className='olivo'>
         <section className='divcasas'>
           <Cardd img = {imgCasa1} texto={"casa1"}/>
