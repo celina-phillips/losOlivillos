@@ -18,9 +18,8 @@
   gap: 60px; 
 }
 .olivo{
-  background-image: url(./assets/olivillo.jpg);
+  background-image: url(./assets/fondo.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .react-player{

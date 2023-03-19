@@ -3,12 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from '../styles/Navegador.css'
+import logo from '../assets/logo.png'
 
 function Navegador() {
   return (
     <Navbar className= "nav-bar" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Los Olivillos</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={logo} alt="" className='logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
