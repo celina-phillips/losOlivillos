@@ -16,7 +16,8 @@ function App() {
   return (
     <div>
         <Navegador/>
-        <UncontrolledExample className="carousel"/>
+        <UncontrolledExample className="carousel"/>     
+        <div className='olivo'>
         <section className='divcasas'>
           <Cardd img = {imgCasa1} texto={"casa1"}/>
           <Cardd img = {imgCasa2} texto={"casa2"}/>
@@ -26,9 +27,9 @@ function App() {
           <Cardd img = {imgCasa3} texto={"casa3"}/>
         </section>
         <AboutUs/>
-
-      //WhatsappButton/
+        </div>
     </div>
+      //WhatsappButton/
   )
 }
 

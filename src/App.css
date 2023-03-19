@@ -11,10 +11,14 @@
   margin-top: 20px;
 }
 .divcasas{
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center; 
   gap: 60px; 
+}
+.olivo{
+  background-image: url(./assets/olivillo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
