@@ -7,8 +7,9 @@ const AboutUs = () => {
     <div className='contenedor'>
         <div className='texto'>
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing Quas incidunt tempore numquam reiciendis voluptate officiis alias ipsa voluptas porro unde, modi, praesentium fugit, ad perspiciatis? Quidem labore est et quia!</p>
+            <img src={imgCasa1} alt="" />
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus rerum officia vitae velit sunt numquam ullam voluptatum repellendus qui. Amet delectus odio saepe itaque quasi cum iste! Ab, consequuntur! Itaque.</p>
     </div>
   )
 }

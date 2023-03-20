@@ -5,11 +5,15 @@
     display: flex;
     flex-direction: row;
     /*flex-direction: column;*/
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
+    margin-top: 150px;
+    gap: 60px;
     /*background-image: url(../assets/olivillo.jpg);*/
     /*background-image: url(../assets/Diseño\ sin\ título.jpg);*/
+    /*background-image: url(../assets/fondo.jpg);
+    background-attachment: fixed;*/
 }
 
 iframe{
@@ -22,12 +26,25 @@ iframe{
 .texto{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content:center;
     width: 40%;
     margin-left: 50px;
+    gap: 60px
+    ;
 }
 
+.texto img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+h2{
+   text-decoration: underline;
+}
 p{
-   text-align: left;
+    width: 40%;
 }
