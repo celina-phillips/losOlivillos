@@ -8,8 +8,8 @@ const Cardd = (props) => {
   return (
     <div className='card'>
         <img src={props.img} alt="" />
-        <h3>{props.texto}</h3>
-        <button>ir a la casa</button>
+        <h3>{props.texto}</h3>  
+        <button>ir a la casa</button> 
     </div>
   )
 }
