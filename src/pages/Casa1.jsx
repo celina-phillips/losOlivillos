@@ -1,8 +1,13 @@
 import React from 'react'
+import Carousell from '../components/Carousell'
+import '../styles/Casas.css'
+
 
 const Casa1 = () => {
   return (
-    <div>Casa1</div>
+    <div>
+      <Carousell/>
+    </div>
   )
 }
 

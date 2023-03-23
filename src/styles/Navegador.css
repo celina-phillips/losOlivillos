@@ -1,3 +1,4 @@
+
 .logo{
     height: 7vh;
     width: 15vw;
@@ -10,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: grey;
-    width: 100vw;
+    min-width: 100vw;
 }
 
 .botones{
