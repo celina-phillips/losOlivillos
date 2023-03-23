@@ -8,12 +8,17 @@ import '../App.css'
 
 function UncontrolledExample() {
   return (
-    <ReactPlayer url={video}
-      playing
-      loop
-        width='100vw'
-        height='100%'
-      />
+    <>
+      <ReactPlayer url={video}
+          playing
+          loop
+          width='100vw'
+          height='100%' />
+      <div className='leyenda'>
+      <h1>Los Olivillos</h1>
+      <p>"Un lugar donde encontrar paz y tranquilidad, ideal para disfrutar en pareja o en familia"</p>
+      </div>
+      </>
   );
 }
 
