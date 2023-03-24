@@ -7,23 +7,3 @@
   flex-direction: column;
   justify-content: center;
 }
-/*.carousel{
-  margin-top: 20px;
-}
-.divcasas{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-items: center; 
-  gap: 60px; 
-}
-.olivo{
-  background-image: url(./assets/fondo.jpg);
-  background-attachment: fixed;
-}
-
-.react-player{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}*/

@@ -1,17 +1,137 @@
-/*.carousel{
-    margin-top: 20px;
-  }*/
-  /*.divcasas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center; 
-    gap: 60px; 
+/*General and Variables*/
+*{
+  box-sizing: border-box;
+  margin:0%;
+  padding:0%;    
   }
-  .olivo{
-    background-image: url(./assets/fondo.jpg);
-    background-attachment: fixed;
-  }*/
+
+:root{ 
+--first-color: #72B6F2;
+--second-color: #176FA6;
+--third-color: #EBE4C7; 
+--fourth-color: #3B2A16; 
+--fifth-color: #735439; 
+}
+
+
+/*MOBILE FIRST - Configuración para Celular */
+
+
+/*CASAS*/
+.grid{
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: auto auto;
+  grid-gap: 5px;
+}
+
+.grid-dos{
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: auto auto;
+  grid-gap: 5px;
+}
+
+.react-player{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.one{
+  background-image: url(../assets/casa1.jpeg);
+  background-size: cover;
+  height: 25vh;
+  margin-top: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;   
+}
+
+.two{
+  background-image: url(../assets/casa2.jpeg);
+  background-size: cover;
+  height: 25vh;
+  margin-top: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.three{
+  background-image: url(../assets/casa3.jpeg);
+  background-size: cover;
+  height: 25vh;
+  margin-left: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.four{
+  background-image: url(../assets/casa3.jpeg);
+  background-size: cover;
+  height: 25vh;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button{
+  height: 12%;
+  width: 130px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+
+
+/*                    Configuración para Desktop                                */
+@media screen and (min-width: 376px) {
+  /* organizamos los elementos del HEADER - de mayor a menor */
+
 
   .grid{
     display: grid;
@@ -121,7 +241,4 @@
     color: black;
 }
 
-  /*.card{
-    width: 100%;
-    height: 100%;
-  }*/
+}
