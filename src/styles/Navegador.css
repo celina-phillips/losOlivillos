@@ -1,24 +1,47 @@
+/*MOBILE FIRST - Configuración para Celular */
 
 .logo{
-    height: 7vh;
-    width: 15vw;
-    align-self: center;
-    margin-left: 30px;
+    height: 50%;
+    width: 50%;
+    align-self: center;   
 }
 .navegador{
-    height: 10vh;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: grey;
-    min-width: 100vw;
+    background-color: var(--first-color);
 }
-
 .botones{
     display: flex;
     flex-direction: row;
     gap: 70px;
     align-items: center;
     margin-right: 30px;
-}
+    color: var(--fourth-color);
+} 
 
+/*                    Configuración para Desktop                                */
+@media screen and (min-width: 360px) {
+    /* organizamos los elementos del HEADER - de mayor a menor */
+
+    .logo{
+        height: 4vh;
+        width: 8vw;
+        align-self: center;
+        margin-left: 30px;
+    }
+    .navegador{
+        height: 8vh;
+    }
+    
+    .botones{
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        align-items: center;
+        margin-right: 30px;
+    
+    }    
+
+}

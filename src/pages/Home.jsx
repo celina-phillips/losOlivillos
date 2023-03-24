@@ -25,7 +25,7 @@ const Home = () => {
           <Link to='/casa3' className='button' >Casa occidiana</Link>
           </div>
           <div className='four'>
-          <Link to='/casa4' className='button' >Casa 4</Link>
+          <Link to='/casa4' className='button' >Casa del mar</Link>
           </div>
         </div>
         <AboutUs/>

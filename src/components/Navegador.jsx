@@ -5,14 +5,15 @@ import { Link } from 'react-router-dom'
 
 function Navegador() {
   return (
-    <div className='navegador'>
-      <Link to='/' className='logo'><img src={logo} alt=""/></Link>
-      <div className='botones'>
-        <h3>Casas</h3>
-        <h3>AboutUs</h3>
-        <h3>Contacto</h3>
-      </div>       
-    </div>
+<>  
+<nav className='navegador'>	
+<Link to='/' className='logo'><img src={logo} alt="logo"/></Link>
+  <ul className='botones' type="none">
+		<li><a href="#">Casas</a></li>
+		<li><a href="https://wa.me/5492262655087">Contacto</a></li>
+	</ul>
+</nav>
+</>     
   );
 }
 
